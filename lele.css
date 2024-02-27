@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box{
+    height: 100vh;
+    background-image: url("le.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner{
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.inner h1{
+    font-size: 45px;
+}
+.inner p{
+    margin: 10px;
+    font-size: 18px;
+}
